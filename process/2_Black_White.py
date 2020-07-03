@@ -1,7 +1,7 @@
 import cv2
 
 
-img_color = cv2.imread('plan.jpg', cv2.IMREAD_COLOR)
+img_color = cv2.imread('FINAL.jpg', cv2.IMREAD_COLOR)
 
 cv2.imshow('Color', img_color)
 cv2.waitKey(0)
@@ -16,6 +16,6 @@ ret,img_binary = cv2.threshold(img_gray, 10, 255, cv2.THRESH_BINARY_INV)
 cv2.imshow('Binary', img_binary)
 cv2.waitKey(0)
 
-cv2.imwrite('gray10.jpg', img_binary)
+cv2.imwrite('gray50.jpg', img_binary)
 
 cv2.destroyAllWindows()
