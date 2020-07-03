@@ -1,6 +1,6 @@
 ## 1. PROJECT
-> * Name : PLAN PROJECT    
-> * Producer : OH-Geon
+> ** Name : PLAN PROJECT **    
+> ** Producer : OH-Geon **
 
 ## 2. OBJECTIVE
 > *"To extract drawings through images"*    
