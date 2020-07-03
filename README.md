@@ -12,12 +12,12 @@
 >* **OpenCV**    
 
 ## 4. USAGE    
-* **0 Importing Libraries**
+* **0. Importing Libraries**
 ```
 import cv2
 import numpy as np
 ```
-#1 
+* **1. 
 ```
 img_color = cv2.imread('plan.jpg', cv2.IMREAD_COLOR)
 
@@ -25,7 +25,7 @@ img_gray = cv2.cvtColor(img_color, cv2.COLOR_BGR2GRAY)
 
 cv2.imwrite('savedimage.jpg', img_gray)
 ```
-#2 
+* **2. 
 ```
 img_color = cv2.imread('savedimage.jpg', cv2.IMREAD_COLOR)
 
@@ -35,7 +35,7 @@ ret,img_binary = cv2.threshold(img_gray, 10, 255, cv2.THRESH_BINARY_INV)
 
 cv2.imwrite('gray10.jpg', img_binary)
 ```
-#3 
+* **3. 
 ```
 img_color = cv2.imread('gray10.jpg')
 img_gray = cv2.cvtColor(img_color, cv2.COLOR_BGR2GRAY)
@@ -46,7 +46,7 @@ for cnt in contours:
     for p in cnt:
         cv2.circle(img_color, (p[0][0], p[0][1]), 2, (255,0,0), -1)
 ```
-#4 
+* **4. 
 ```
 img = cv2.imread('gray10.jpg',0)
 
@@ -55,7 +55,7 @@ result = cv2.erode(img, kernel, iterations = 1)
 
 cv2.imwrite('gray30.jpg', result)
 ```
-#5
+* **5.
 ```
 img = cv2.imread('gray30.jpg',0)
 
@@ -64,7 +64,7 @@ result = cv2.dilate(img, kernel, iterations = 1)
 
 cv2.imwrite('gray40.jpg', result)
 ```
-#6 
+* **6. 
 ```
 img = cv2.imread('gray40.jpg',0)
 
@@ -73,7 +73,7 @@ result = cv2.erode(img, kernel, iterations = 1)
 
 cv2.imwrite('gray50.jpg', result)
 ```
-#7 
+* **7. 
 ```
 img_color = cv2.imread('gray50.jpg', cv2.IMREAD_COLOR)
 img_gray = cv2.cvtColor(img_color, cv2.COLOR_BGR2GRAY)
