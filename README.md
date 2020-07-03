@@ -18,4 +18,4 @@
 >
 
 ## 5. RESULT
-<img src = "https://github.com/geon-oh/PLAN-project/blob/master/results/FINAL.jpg" width = "400">
+<img src = "https://github.com/geon-oh/PLAN-project/blob/master/results/FINAL.jpg" width = "800">
