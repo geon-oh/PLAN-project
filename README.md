@@ -12,7 +12,7 @@
 >* **OpenCV**    
 
 ## 4. USAGE    
-#0 
+-**0 Importing Libraries**
 ```
 import cv2
 import numpy as np
