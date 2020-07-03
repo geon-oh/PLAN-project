@@ -89,5 +89,5 @@ cv2.destroyAllWindows()
 ```     
            
 ## 5. RESULT
-<img src = "https://github.com/geon-oh/PLAN-project/blob/master/results/plan.jpg" width = "500"> <img src = "https://github.com/geon-oh/PLAN-project/blob/master/results/FINAL.jpg" width = "500">
+<img src = "https://github.com/geon-oh/PLAN-project/blob/master/results/plan.jpg" width = "450"> <img src = "https://github.com/geon-oh/PLAN-project/blob/master/results/FINAL.jpg" width = "450">
 
