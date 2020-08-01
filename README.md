@@ -12,9 +12,16 @@
 >* **OpenCV**    
 
 ## 4. USAGE          
->* **1. 'In 'naver' you can find and download drawings of apartment in korea '
->* **2. python plan.py -i ./image/plan.jpg -o ./results/fINAL.jpg
->* **3. -i : Input image file path   -o : Output image file path
+>- **Execute Program**  
+>  ```Bash
+>  > python plan.py -i ./image/plan.jpg -o ./results/fINAL.jpg
+>  ```
+>- **Option Description**  
+>  ```Bash
+>  > python plan.py -h
+>  -i : Input image file path. Default path is "./sample_images/sample.png"
+>  -o : output image file path. Default path is "./output.gif"
+>  ```
 
 ## 5. RESULT
 <img src = "https://github.com/geon-oh/PLAN-project/blob/master/image/plan.jpg?raw=true" width = "400"> <img src = "https://github.com/geon-oh/PLAN-project/blob/master/results/FINAL.jpg" width = "400">
