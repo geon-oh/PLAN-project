@@ -19,8 +19,8 @@
 >- **Option Description**  
 >  ```Bash
 >  > python plan.py -h
->  -i : Input image file path. Default path is "./sample_images/sample.png"
->  -o : output image file path. Default path is "./output.gif"
+>  -i : Input image file path. Default path is "./image/plan.jpg"
+>  -o : output image file path. Default path is "./results/fINAL.jpg"
 >  ```
 
 ## 5. RESULT
